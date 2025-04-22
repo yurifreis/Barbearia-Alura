@@ -1,0 +1,54 @@
+
+
+/*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}*/
+
+
+
+h1{
+    padding-left: 20px;
+}
+
+#img_banner{
+    width: 100%;
+}
+
+#bloco_sobre{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(203, 198, 198);
+}
+
+p:nth-last-of-type(2){
+    font-size: 15pt;
+}
+
+#destaque{
+    color: red;
+}
+
+#bloco_beneficios{
+    padding: 20px;
+}
+
+#bloco_beneficios h2{
+    text-align: center;
+}
+
+#img_beneficios{
+    width: 50%;
+    object-fit: cover;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 15%;
+    font-style: italic;
+    
+}
+
