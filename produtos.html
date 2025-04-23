@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossos Produtos</title>
-    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="style/produtos.css">
 </head>
 <body>
     <header>
@@ -12,8 +12,10 @@
             <img src="imagens/logo.png" class="img_logo" alt="Logo">
         </div>
 
-        <nav class="menu">
-            <ul>
+        <h1>Nossos Produtos</h1>
+
+        <nav class="navegacao">
+            <ul class="menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="#">Contato</a></li>
@@ -22,11 +24,33 @@
     </header>
 
     <main>
+        <ul class="cards_produtos">
+            <li>
+                <h2>Cabelo</h2>
+                <img src="imagens/cabelo.jpg" alt="foto_cabelo">
+                <p>Na tesoura ou máquina, como o cliente preferir.</p>
+                <p class="produto_preco">R$ 25,00</p>
+            </li>
 
+            <li>
+                <h2>Barba</h2>
+                <img src="imagens/barba.jpg" alt="foto_barba">
+                <p>Corte e Desenho proissional de barba.</p>
+                <p class="produto_preco">R$ 18,00</p>
+            </li>
+
+            <li>
+                <h2>Cabelo & Barba</h2>
+                <img src="imagens/cabelo+barba.jpg" alt="foto_combo">
+                <p>Pacote completo de cabelo e barba.</p>
+                <p class="produto_preco">R$ 35,00</p>
+            </li>
+        </ul>
     </main>
 
-    <footer>
-
+    <footer class="rodape">
+        <img src="imagens/logo-branco.png" alt="Logo">
+        <p>&copy;Barbearia Alura 2019 - Yuri Fernandes</p>
     </footer>
 
 </body>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #00010D;
+    --cor2: #F2F2F0;
+    --cor3: #595856;
+    --cor4: #8C8987;
+    --cor5: #232020;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #d7d6d6; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.container_logo{
+    flex: 1;
+    text-align: right;
+}
+
+h1 {
+    flex: 2; 
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0; 
+}
+
+.navegacao {
+    flex: 1; 
+    text-align: right; 
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+a{
+
+    font-size: 13pt;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(202, 157, 99);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.cards_produtos{
+    width: 900px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.cards_produtos li{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;   
+}
+
+.cards_produtos li:hover{
+    border-color: rgb(202, 157, 99);
+    
+}
+
+.cards_produtos li:active{
+    border-color: chartreuse;
+}
+
+.cards_produtos li:hover h2{
+    font-size: 26px;
+}
+
+.produto_preco{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    font-style: italic;
+    background-image: url('/imagens/bg.jpg');
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: white;
+}
