@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style/contato.css">
+</head>
+<body>
+    <header>
+        <div class="container_logo">
+            <img src="imagens/logo.png" class="img_logo" alt="Logo">
+        </div>
+
+        <h1>Nossos Produtos</h1>
+
+        <nav class="navegacao">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <h2>Entre o contato conosco!</h2>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" class="input_padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="input_padrao" placeholder="seuemail@gmail.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="input_padrao" placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="50" rows="10" name="mensagem" id="mensagem" class="input_padrao"></textarea>
+
+            <fieldset style="border: none;">
+                <legend>Como prefere o nosso contato?</legend>
+                
+                <label for="radio_email"><input type="radio" name="contato" id="radio_email" class="radio" value="email" required>E-mail</label>
+                    
+                <label for="radio_telefone"><input type="radio" name="contato" id="radio_telefone" class="radio" value="telefone" required>Telefone</label>
+                
+                <label for="radio_whatzapp"><input type="radio" name="contato" id="radio_whatzapp" class="radio" value="whatzaap" required>Whatzaap</label>
+            </fieldset>
+
+            <fieldset style="border: none;">
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </fieldset>
+
+            <label for="ckeckbox"><input type="checkbox" name="ckeckbox" id="ckeckbox" class="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+
+
+            <input type="submit" value="Enviar" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dias</th>
+                    <th>Horários</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>08h - 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Quarta</td>
+                    <td>08h - 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Sexta</td>
+                    <td>08h - 20h</td>
+                </tr>
+            </tbody>    
+        </table>
+    </main>
+
+    <footer class="rodape">
+        <img src="imagens/logo-branco.png" alt="Logo">
+        <p>&copy;Barbearia Alura 2019 - Yuri Fernandes</p>
+    </footer>
+</body>
+</html>
